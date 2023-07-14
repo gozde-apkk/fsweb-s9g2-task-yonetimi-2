@@ -74,7 +74,7 @@ export default function TaskHookForm({ kisiler, submitFn }) {
                   required: "Lütfen en az 1 kişi seçin",
                   validate: {
                     maxKisi: (value) =>
-                      value.length < 3 || "En fazla 3 kişi seçebilirsiniz",
+                      value.length < 4 || "En fazla 3 kişi seçebilirsiniz",
                   },
                 })}
                 type="checkbox"
